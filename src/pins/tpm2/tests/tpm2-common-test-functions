@@ -77,8 +77,9 @@ tpm2_hw_available() {
 }
 
 tpm2_version() {
-    local _tpm2tools_info="$(tpm2_createprimary -v)"
+    local _tpm2tools_info
     local _match='version="(.)\.'
+    _tpm2tools_info="$(tpm2_createprimary -v)"
     [[ ${_tpm2tools_info} =~ ${_match} ]] && TPM2TOOLS_VERSION="${BASH_REMATCH[1]}"
     if [[ $TPM2TOOLS_VERSION -lt 3 ]] || [[ $TPM2TOOLS_VERSION -gt 5 ]]; then
         echo "The tpm2 pin requires a tpm2-tools version between 3 and 5" >&2
