@@ -24,7 +24,8 @@ error() {
 }
 
 skip_test() {
-    [ -n "$@" ] && echo "$@" >&2
+    local message="$*"
+    [ -n "$message" ] && echo "$message" >&2
     exit 77
 }
 
