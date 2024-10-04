@@ -5,7 +5,7 @@ Summary:        Automated decryption framework
 
 License:        GPL-3.0-or-later
 URL:            https://github.com/oldium/%{name}
-Source0:        clevis-25.0.0.tar.gz
+Source0:        clevis-27.0.0.tar.gz
 Source1:        clevis.sysusers
 
 BuildRequires:  git-core
