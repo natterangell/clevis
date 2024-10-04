@@ -1,6 +1,6 @@
 Name:           clevis
 Version:        0.0.0
-Release:        0%\{?dist}
+Release:        %autorelease
 Summary:        Automated decryption framework
 
 License:        GPL-3.0-or-later
