@@ -6,6 +6,7 @@ Summary:        Automated decryption framework
 License:        GPL-3.0-or-later
 URL:            https://github.com/oldium/%{name}
 Source0:        %\{name}-%\{version}.tar.gz
+Source1:        clevis.sysusers
 
 BuildRequires:  git-core
 BuildRequires:  gcc
