@@ -1,5 +1,5 @@
 Name:           clevis
-Version:        25.0.0
+Version:        25.0.0-1
 Release:        %autorelease
 Summary:        Automated decryption framework
 
