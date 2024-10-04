@@ -1,5 +1,5 @@
 Name:           clevis
-Version:        26.0.0
+Version:        27.0.0
 Release:	1
 Summary:        Automated decryption framework
 
@@ -214,6 +214,9 @@ exit 0
 systemctl preset %{name}-luks-askpass.path >/dev/null 2>&1 || :
 
 %changelog
+* Fri Oct 04 2024 Unknown name 27.0.0-1
+- aw (ruben@t420.angell.eu)
+
 * Fri Oct 04 2024 Unknown name 26.0.0-1
 - xw (ruben@t420.angell.eu)
 - wd (ruben@t420.angell.eu)
