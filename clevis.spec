@@ -1,5 +1,5 @@
 Name:           clevis
-Version:        0.0.0
+Version:        25.0.0
 Release:        %autorelease
 Summary:        Automated decryption framework
 
@@ -214,4 +214,7 @@ exit 0
 systemctl preset %{name}-luks-askpass.path >/dev/null 2>&1 || :
 
 %changelog
+* Fri Oct 04 2024 Unknown name 25.0.0-1
+- new package built with tito
+
 %autochangelog
